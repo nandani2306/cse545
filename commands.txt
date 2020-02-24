@@ -1,0 +1,16 @@
+Go to folder containing project
+Create virtual env:
+C:\Users\nanda\Desktop\SS_Project>python -m venv venv
+Activate
+C:\Users\nanda\Desktop\SS_Project>venv\Scripts\activate
+
+Requirements to be installed inside venv (pip install)
+1. flask
+2. flask_sqlalchemy
+3. flask-wtf
+
+To run app on localhost (port 7000)
+set FLASK_APP=run.py
+set FLASK_RUN_PORT=7000
+set FLASK_DEBUG=1
+flask run
